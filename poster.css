@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #4CAF50; 
+
+}
+
+.poster {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background: url("download (1).jpeg") no-repeat center/cover;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 190px;
+  
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  
+}
+
+.text h1 {
+  margin-top: 150px;
+  font-size: 36px;
+  font-weight:bolder;
+  color: gold;
+}
+
+.text p {
+  font-size: 19px;
+  color: white;
+  margin-top: -40px;
+  line-height: 1.5;
+}
+
+.sadya {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: 300px;
+}
+.thiruvathira {
+    position: absolute ;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+}
+
+.vallamkali{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 200px;
+}
+.big-o {
+  font-size: 80px;  
+  color: gold;       
+  font-weight: bold; 
+  color: transparent; 
+  background: url("Kerala_Onam_White_Transparent__Cartoon_Style_Kathakali_Dancer_For_Happy_Onam_Festival_Of_Kerala_India_Mask__India__Outram_Festival__Tradition_PNG_Image_For_Free_Download-removebg-preview.png") no-repeat center/cover;
+  background-clip: text;   
+  -webkit-text-stroke: 2px gold;    
+}
+ 
